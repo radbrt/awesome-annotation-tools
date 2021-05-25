@@ -33,8 +33,9 @@ I am working on adding better notes to this.
   - python package focused on onnotation tabular data, works well with pandas, and good options for visual bulk-labeling.
 
 
-||tool          ||Text classification ||image classification  ||Image bounding box  ||image lasso ||NER ||Entity linking  ||Audio ||Video ||
---------------------------------------------------------------------------------------------------------------------------------------
+| tool          | Text classification  | image classification  | Image bounding box | image lasso | NER |Entity linking  | Audio | Video  | 
+---------------:|---------------------:|---------------------:|--------------------:|------------:|----:|----------------:|------:|------:|
 |Prodigy        |YES                   |Yes                   |Yes                  |Yes          |YES  |YES              |YES    |?      |
 |AWS Sagemaker  |Yes                   |Yes                   |Yes                  |Yes          |Yes  |NO               |??     |Yes    |
 |Surge HQ       |Yes                   |Yes?                  |Yes?                 |Yes?         |Yes  |NO               |??     |?      |
+
