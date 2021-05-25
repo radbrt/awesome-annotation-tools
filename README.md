@@ -26,22 +26,24 @@ I am working on adding better notes to this.
 - **Rubrix**: python package focused on onnotation tabular data, works well with pandas, and good options for visual bulk-labeling. https://github.com/recognai/rubrix
 
 
+## Comparison table
+
+This is under construction, and I don't give a 100% guarantee for the correctness. Some tools face rapid development too, and features change.
+
 | tool                  | Text classification  | image classification  | Image bounding box | image lasso | NER     | Entity resolution | Audio | Video | 
--------------------:    |---------------------:|---------------------:|--------------------:|------------:|--------:|------------------:|------:|------:|
-|Prodigy                |YES                   |Yes                   |Yes                  |Yes          |YES      |YES                |YES    |?      |
-|AWS Sagemaker          |Yes                   |Yes                   |Yes                  |Yes          |Yes      |NO                 |??     |Yes    |
-|Surge HQ               |Yes                   |Yes?                  |Yes?                 |Yes?         |Yes      |NO                 |??     |?      |
-|hasty.ai               |No                    |Yes                   |Yes                  |No           |No       |No                 |No     |?      |
-|snorkel.ai*            |Yes                   |?                     |?                    |?            |Yes?     |?                  |?      |?      |
-|Mechanical Turk        |Yes                   |Yes                   |Yes                  |Yes          |Yes      |No                 |?      |Yes    |
-|Superannotate          |No                    |Yes                   |Yes                  |Yes          |No       |No                 |No?    |?      |
-|Rubrix                 |Yes                   |No?                   |No                   |No           |No?      |No                 |No     |No     |
-|CVAT                   |No                    |Yes?                  |?                    |?            |No       |No                 |No     |Yes    |
-|LabelImg               |No                    |Yes                   |?                    |?            |No       |No                 |No     |?      |
-|BMW-Labeltool-Lite     |No?                   |Yes                   |Yes                  |Yes?         |No       |No                 |No     |?      |
-|VoTT                   |No                    |Yes                   |?                    |?            |No       |No                 |?      |?      |
-|superannotate-desktop  |No                    |Yes                   |Yes                  |Yes          |No       |No                 |No?    |?      |
-
-
+-------------------:    |----------------------|-----------------------|--------------------|-------------|---------|-------------------|-------|-------|
+|Prodigy                |✅                    |✅                      |✅                  |✅           |✅        |✅                 |✅     |❓      |
+|AWS Sagemaker          |✅                    |✅                      |✅                  |✅           |✅        |❌                 |❓     |✅      |
+|Surge HQ               |✅                    |❌                      |❌                  |❌           |✅        |✅                 |❓     |❓      |
+|hasty.ai               |❌                    |✅                      |✅                  |❌           |❌        |❌                 |❌     |❓      |
+|snorkel.ai*            |✅                    |❓                      |❓                  |❓           |✅        |❓                 |❓     |❓      |
+|Mechanical Turk        |✅                    |✅                      |✅                  |✅           |✅        |❌                 |❓     |✅      |
+|Superannotate          |❌                    |✅                      |✅                  |✅           |❌        |❌                 |❌     |❓      |
+|Rubrix                 |✅                    |❌                      |❌                  |❌           |❌        |❌                 |❌     |❌      |
+|CVAT                   |❌                    |❌                      |✅                  |✅           |❌        |❌                 |❌     |✅      |
+|LabelImg               |❌                    |✅                      |❓                  |❓           |❌        |❌                 |❌     |❓      |
+|BMW-Labeltool-Lite     |❌                    |✅                      |✅                  |❌           |❌        |❌                 |❌     |❓      |
+|VoTT                   |❌                    |✅                      |❓                  |❓           |❌        |❌                 |❓     |❓      |
+|superannotate-desktop  |❌                    |✅                      |✅                  |✅           |❌        |❌                 |❌     |❓      |
 
 
