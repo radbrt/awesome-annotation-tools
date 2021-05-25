@@ -4,16 +4,13 @@ Just another awesome list - of tools for creating training data
 ## About the list
 This list started as a slack thread, but grew too big. This space is moving quickly, and I'm adding new tools as I become aware of them. However, this is not meant to be a comprehensive list - such a list would be too long and confusing.
 
-I am working on adding some notes to this.
+I am working on adding better notes to this.
 
 ## Commercial options
 
 - prodi.gy
   - From the makers of Spacy, a perpetual license annotation tool that is very customizable for anyone using python. Active learning/Model-in-the-loop comes out of the box. Needless to say, very good integration with Spacy.
-
-
 - hasty.ai
-  -
 - snorkel.ai
   - Platform for making heuristic-based rules for a type of ensemble-based traningdata.
 - AWS Sagemaker Label jobs
@@ -34,3 +31,10 @@ I am working on adding some notes to this.
 - https://opencv.org/superannotate-desktop/
 - https://github.com/recognai/rubrix
   - python package focused on onnotation tabular data, works well with pandas, and good options for visual bulk-labeling.
+
+
+||tool          ||Text classification ||image classification  ||Image bounding box  ||image lasso ||NER ||Entity linking  ||Audio ||Video ||
+--------------------------------------------------------------------------------------------------------------------------------------
+|Prodigy        |YES                   |Yes                   |Yes                  |Yes          |YES  |YES              |YES    |?      |
+|AWS Sagemaker  |Yes                   |Yes                   |Yes                  |Yes          |Yes  |NO               |??     |Yes    |
+|Surge HQ       |Yes                   |Yes?                  |Yes?                 |Yes?         |Yes  |NO               |??     |?      |
