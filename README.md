@@ -24,6 +24,7 @@ I am working on adding better notes to this.
 - **Visual Object Tagging Tool**: An electron app for building end to end Object Detection Models from Images and Videos https://github.com/microsoft/VoTT
 - https://opencv.org/superannotate-desktop/
 - **Rubrix**: python package focused on onnotation tabular data, works well with pandas, and good options for visual bulk-labeling. https://github.com/recognai/rubrix
+- **Pigeon**: Python library for use with Jupyter notebooks. Simple and flexible annotation for small projects. https://pypi.org/project/pigeon-jupyter/
 
 
 ## Comparison table
@@ -45,5 +46,5 @@ This is under construction, and I don't give a 100% guarantee for the correctnes
 |BMW-Labeltool-Lite     |❌                    |✅                      |✅                  |❌           |❌        |❌                 |❌     |❓      |
 |VoTT                   |❌                    |✅                      |❓                  |❓           |❌        |❌                 |❓     |❓      |
 |superannotate-desktop  |❌                    |✅                      |✅                  |✅           |❌        |❌                 |❌     |❓      |
-
+|Pigeon                 |✅                    |✅                      |❌                  |❌           |❌        |❌                 |❌     |❌      |
 
