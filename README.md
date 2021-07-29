@@ -6,6 +6,8 @@ This list started as a slack thread, but grew too big. This space is moving quic
 
 I am working on adding better notes to this.
 
+See also https://github.com/taivop/awesome-data-annotation
+
 ## Commercial options
 
 - **prodi.gy**: From the makers of Spacy, a perpetual license annotation tool that is very customizable for anyone using python. Active learning/Model-in-the-loop comes out of the box. Needless to say, very good integration with Spacy.
